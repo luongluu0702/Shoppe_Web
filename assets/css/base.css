@@ -1,0 +1,28 @@
+:root{
+    --while-coler: #fff;
+    --black-color: #000;
+    --text-coler:#ccc;
+}
+*{
+    box-sizing: inherit;
+
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+.gird{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.gird__full-width{
+    width: 100%;
+
+}
+.gird__row{
+    display: flex;
+    flex-wrap: wrap;
+}
