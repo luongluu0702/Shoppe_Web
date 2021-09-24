@@ -1,7 +1,7 @@
 :root{
-    --while-coler: #fff;
+    --while-color: #fff;
     --black-color: #000;
-    --text-coler:#ccc;
+    --text-color:#ccc;
 }
 *{
     box-sizing: inherit;
