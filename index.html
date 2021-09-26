@@ -7,8 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+   
 </head>
 <body>
     <div class="app">
@@ -18,15 +21,87 @@
                     <ul class="nav__list">
                         <li class="nav__list-item nav__list-item--separate">Kênh Người Bán</li>
                         <li class="nav__list-item nav__list-item--separate">Trở Thành Người Bán Shopee</li>
-                        <li class="nav__list-item nav__list-item--separate">Tải ứng dụng</li>
-                        <li class="nav__list-item">Kết nối</li>
-                    </ul>
-                    <ul class="nav__list">
-                        <li class="nav__list-item">
-                            <a href="" class="nav__list-item-link">Thông báo</a>
+                        <li class="nav__list-item nav__list-item--separate nav__list-item--show-qr">
+                            Tải ứng dụng
+                            <div class="header__qr">
+                                <img src="./assets/img/header/qr.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/header/goole_play.png" alt="Goole Play" class="header__qr-link-download">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/header/app_store.png" alt="App Store" class="header__qr-link-download">
+                                    </a>
+                                </div>
+                            </div>
                         </li>
                         <li class="nav__list-item">
-                            <a href="" class="nav__list-item-link">Hỗ trợ</a>
+                            <span class="nav__list-item--no-pointer">Kết nối</span>
+                            <a href="" class="nav__list-icon-link"><i class="nav__list-icon fab fa-facebook"></i></a>
+                            <a href="" class="nav__list-icon-link"><i class="nav__list-icon fab fa-instagram"></i></a>
+                            
+                        </li>
+                    </ul>
+                    <ul class="nav__list">
+                        <li class="nav__list-item nav__list-item-link--show-notify ">
+                            <a href="" class="nav__list-item-link ">
+                                <i class="nav__list-icon far fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="nav__notify">
+                                <div class="nav__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </div>
+                                <ul class="nav__notify-list">
+                                    <li class="nav__notify-item">
+                                        <a href="" class="nav__notify-link">
+                                            <img src="./assets/img/header/header_notify/img1.png" alt="img1" class="nav__notify-img">
+                                            <div class="nav__notify-info">
+                                                <span class="nav__notify-name">Xác thực chính hãng nguồn gốc sản phẩm, ngày nhập xuất, ngày lên đơn</span>
+                                                <span class="nav__notify-dsc">Mô tả sản phẩm</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav__notify-item nav__notify-item--readed">
+                                        <a href="" class="nav__notify-link">
+                                            <img src="./assets/img/header/header_notify/img2.png" alt="img1" class="nav__notify-img">
+                                            <div class="nav__notify-info">
+                                                <span class="nav__notify-name">Sản phẩm</span>
+                                                <span class="nav__notify-dsc">Mô tả sản phẩm</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav__notify-item">
+                                        <a href="" class="nav__notify-link">
+
+                                            <img src="./assets/img/header/header_notify/img1.png" alt="img1" class="nav__notify-img">
+                                            <div class="nav__notify-info">
+                                                <span class="nav__notify-name">Sản phẩm</span>
+                                                <span class="nav__notify-dsc">Mô tả sản phẩm</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav__notify-item nav__notify-item--readed">
+                                        <a href="" class="nav__notify-link">
+
+                                            <img src="./assets/img/header/header_notify/img1.png" alt="img1" class="nav__notify-img">
+                                            <div class="nav__notify-info">
+                                                <span class="nav__notify-name">Sản phẩm</span>
+                                                <span class="nav__notify-dsc">Mô tả sản phẩm</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="nav__notify-footer">
+                                    <a href="" class="nav__notify-footer-link">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="" class="nav__list-item-link">
+                                <i class="nav__list-icon far fa-question-circle"></i>
+                                Hỗ trợ
+                            </a>
                         </li>
                         <li class="nav__list-item nav__list-item--strong nav__list-item--separate">Đăng kí</li>
                         <li class="nav__list-item nav__list-item--strong">Đăng nhập</li>
