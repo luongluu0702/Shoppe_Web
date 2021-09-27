@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\.vscode\\Web_shopee_20_9_2021"
+		},
+		{
+			"path": "..\\..\\.vscode\\LươngLuu"
+		},
+		{
+			"path": "..\\..\\.vscode\\BEM"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Shoppe_Web"
+	}
+}
